@@ -44,7 +44,7 @@ export class App extends Component {
   return (
     <div className='app'>
       <header>
-        <a href='https://github.com/danfrme' target='_blank'><img className='logo' src={logo}/></a>
+        <a href='https://github.com/danfrme' ><img className='logo' alt='logo' src={logo}/></a>
       </header>
       <Calculator 
         input={this.state.input} 
