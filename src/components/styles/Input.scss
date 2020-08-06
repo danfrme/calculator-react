@@ -1,0 +1,17 @@
+@import './config';
+
+.input {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    border-bottom: solid #888;
+    color: white;
+    padding: 0;
+    @include desktop {
+        height: 4em;
+        font-size: 1.5em;
+    }
+}

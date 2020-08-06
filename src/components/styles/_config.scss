@@ -1,0 +1,20 @@
+$colors: (
+    light-gray: rgb(22, 22, 22),
+    clear-color: #c5c3cdb9,
+    operator:#f37b1fad,
+);
+
+$borders: 50%;
+$time-active: all 0.2s;
+$time-deactivate: all 0.4s;
+$desktop: 840px;
+
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}

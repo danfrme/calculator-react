@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #171525e8;
+}
+
+header {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+header .logo {
+  height: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header .logo:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+header .logo:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1555066931-bf19f8fd1085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+  background-size: cover;
+  background-position: center;
+  -webkit-clip-path: polygon(100% 0, 100% 76%, 58% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 76%, 58% 100%, 0 100%, 0 0);
+  height: 100vh;
+  width: 100%;
+}
+
+@media (min-width: 840px) {
+  .app {
+    -webkit-clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+  }
+}
+
+footer {
+  color: white;
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+}
+/*# sourceMappingURL=App.css.map */

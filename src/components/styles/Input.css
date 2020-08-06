@@ -1,0 +1,25 @@
+.input {
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  border-bottom: solid #888;
+  color: white;
+  padding: 0;
+}
+
+@media (min-width: 840px) {
+  .input {
+    height: 4em;
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=Input.css.map */

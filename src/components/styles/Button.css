@@ -1,0 +1,50 @@
+.button-wrapper {
+  height: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.4em;
+  background-color: #e0e1e6af;
+  color: #161616;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+@media (min-width: 840px) {
+  .button-wrapper {
+    height: 4em;
+    font-size: 1.5em;
+  }
+}
+
+.button-wrapper:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.button-wrapper:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.operator {
+  background-color: #f37b1fad;
+  color: white;
+}
+/*# sourceMappingURL=Button.css.map */
