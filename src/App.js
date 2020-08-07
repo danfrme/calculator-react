@@ -54,7 +54,7 @@ export class App extends Component {
         handdleErase={this.handdleErase}
       />
 
-      <footer><p>Developed by Douglas Franquiz</p></footer>
+      <footer><p>Developed by Douglas Franquiz, 2020</p></footer>
     </div>
   );
 }
